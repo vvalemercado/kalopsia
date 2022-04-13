@@ -67,6 +67,9 @@ background-repeat: no-repeat;
     text-decoration: none;
     color: #F2BE5C;
 }
+.header a:hover {
+    transform: scale(1.2);
+}
 /* overlay wapp e insta */
 .overlay{
     position: fixed;
@@ -142,6 +145,11 @@ background-repeat: no-repeat;
 	text-decoration:none;
     margin-left: 43%;
 }
+.boton1:hover {
+    transform: scale(1.1);
+    color: #F2BE5C;
+    transition: color 0.3s ease-in-out;
+}
 .titulo2 {
     font-family: Bright DEMO;
     padding: 10px;
@@ -170,6 +178,11 @@ background-repeat: no-repeat;
 	text-decoration:none;
     margin-left: 45%;
 }
+.boton2:hover {
+    transform: scale(1.1);
+    color: #F2BE5C;
+    transition: color 0.3s ease-in-out;
+}
 /* pagina tienda */
 .fondo {
     position: absolute;
@@ -191,8 +204,6 @@ background-repeat: no-repeat;
 }
 
 
-
-
 /* pagina contacto */
 #contacto {
     position: absolute;
@@ -212,8 +223,7 @@ background-repeat: no-repeat;
 #contacto-grilla {
     display: grid;
 }
-
-/* .texto-mensaje{
+.texto-mensaje{
     text-align: left;
     margin-left: 700px;
     color: #0E4C73;
@@ -237,11 +247,7 @@ background-repeat: no-repeat;
 .consulta {
     font-family: Bright DEMO;
     color: #F2EFE9;
-
-} */
-
-
-
+}
 
 
 /* footer */
