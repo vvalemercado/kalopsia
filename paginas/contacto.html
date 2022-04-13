@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contacto</title> 
+        <link rel="shortcut icon" href="../img/icono.png">
+        <!-- css -->
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body id="contacto" class="fondo-contacto"> 
+            <header class="header">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">inicio</a></li>
+                        <li><a href="./tienda.html">tienda</a></li>
+                        <li><a href="./comocomprar.html">como comprar</a></li>
+                        <li><a href="./nosotros.html">nosotros</a></li>
+                        <li><a href="#">contacto</a></li>
+                    </ul> 
+                </nav>
+            </header>
+            <h1 class="titulos-paginas">CONTACTO</h1>
+            <form autocomplete="on">
+                <!-- formulario para consultas -->
+            <section id="contacto-grilla">
+                <div class="a">
+                    <h2 class="consulta">DEJANOS TU CONSULTA!</h2>
+                </div>
+                <div>
+                    <p class="info-horarios">Estamos contestando mensajes de Lunes a Viernes de 9:00 a 20:00 hs.</p>
+                </div>
+                <div class="">
+                    <a href="https://wa.me/+5493512560015"><img src="../img/whatsapp.png" alt="logo whatsapp" height="40px"></a>
+                    <p>+54 9 351 256 0015</p>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/kalopsia.ac/"><img src="../img/instagram.png" alt="logo instagram" height="40px"></a>
+                    <p>@kalopsia.ac</p>
+                </div>
+                <div> <!-- para nombre (obligatorio)-->
+                    <label class="texto-mensaje" for="Nombre">Nombre:</label>
+                    <input class="blankspace" type="text" id="Nombre" required placeholder="Ingrese su nombre completo">
+                </div>
+                <!-- Campo para el mail -->
+                <div>
+                    <label class="texto-mensaje" for="email">Dirección de correo electrónico:</label>
+                    <input class="blankspace" type="email" id="email" placeholder="Ingrese su E-mail">
+                </div>
+                <!-- Campo para el mail -->
+                <div> 
+                    <label class="texto-mensaje" for="telefono">Teléfono:</label>
+                    <input class="blankspace" type="number" id="telefono" placeholder="Ingrese su numero de teléfono">
+                </div>
+                <!-- Campo para mensaje  -->
+                <div>
+                    <label class="texto-mensaje" for="mensaje">Mensaje:</label>  <!-- para el mensaje (obligatorio) -->
+                    <textarea class="blankspace" cols="30" rows="10" required placeholder="Ingresá tu consulta o sugerencia"></textarea>
+                </div>
+            </section>
+                <input type="submit" value="Enviar"> <!-- botón de enviar -->
+            </form>
+            <footer id="footer">
+                <div class="contenedor-ubi">
+                    <img src="../img/logo-ubicacion .png" alt="icono de ubicación" height="30px" class="icono-ubi"> <!-- icono que va al lado de p -->
+                <p class="cordoba">Córdoba, Argentina</p>
+            </div> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8475.88574449039!2d-64.28919747049304!3d-31.340102287195354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329eae42c4440b%3A0x473b98d5636193de!2sArguello%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1647063219232!5m2!1ses-419!2sar" width="500" height="60" style="border:0;" allowfullscreen="" loading="lazy" class="googlemaps"></iframe>
+            <p class="creditos"><i>Kalopsia Accesorios, © 2022. </i></p>
+        </footer> 
+    </body>
+</html>

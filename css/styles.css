@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.barra {
+    font-family:Bright DEMO;
+    color: #F2BE5C;
+    font-size: 23px;
+    text-align: center;
+    top: 0%;
+    padding-top: 10px;
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    background-color: #0E4C73;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+/* main de presentación */
+.kalopsia {
+position: absolute;
+align-items: center;
+top: 6%;
+width: 100%;
+height: 100%;
+/* imagen de fondo */
+background-image: url(../img/imagenindex.png);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+/* logo kalopsia */
+#logo{
+    text-align: center;
+    padding-top: 15%;
+}
+/* nav index */
+#index .header {
+    position: fixed;
+    top: 650px;
+    width: 100%;
+    height: 100%;
+}
+/* nav paginas*/
+.header{
+    position: relative;
+    top: 60px;
+    width: 100%;
+}
+/* texto header */
+.header ul{
+    list-style-type: none;
+    font-family: -apple-system, Bright DEMO;
+    display: flex;
+    justify-content: space-around;
+}
+.header ul li{
+    display: inline;
+    padding: 10px;
+    margin: 4px;
+    font-size: 30px;
+}
+.header a{
+    display: flex;
+    text-decoration: none;
+    color: #F2BE5C;
+}
+/* overlay wapp e insta */
+.overlay{
+    position: fixed;
+    z-index: 4;
+    top: 5px; 
+    right: 20px;
+    margin: 1%;
+    margin-right: 0px;
+}
+.overlay-whatsapp {
+    padding: 5px;
+    margin: auto;
+}
+.overlay-instagram {
+    padding: 5px;
+    margin: auto;
+}
+/* scroll 1*/
+.tienda-index {
+    position: absolute;
+    align-items: center;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    /* imagen de fondo */
+    background-image: url(../img/imagen2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* scroll 2 */
+.nosotros-index {
+    position: absolute;
+    align-items: center;
+    top: 200%;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding-right: 0%;
+    background-image: url(../img/imagen3.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.titulo1 {
+    font-family: Bright DEMO;
+    padding: 10px;
+    color: #F2BE5C;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 23%;
+} 
+.parrafo1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px; 
+    color: azure;
+    text-align: center;
+    padding-bottom: 20px;
+}    
+.boton1 {
+    background-color:transparent;
+	border-radius:28px;
+	border:1px solid azure;
+	display:inline-block;
+	cursor:pointer;
+	color:azure;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    margin-left: 43%;
+}
+.titulo2 {
+    font-family: Bright DEMO;
+    padding: 10px;
+    color: #F2BE5C;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 23%;
+}
+.parrafo2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px; 
+    color: azure;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.boton2 {
+    background-color:transparent;
+	border-radius:28px;
+	border: 1px solid azure;
+	display:inline-block;
+	cursor: pointer;
+	color:azure;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+	padding: 16px 31px;
+	text-decoration:none;
+    margin-left: 45%;
+}
+/* pagina tienda */
+.fondo {
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height:300%;
+    background-image: url(../img/fondotienda.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.titulos-paginas {
+    font-family: Bright DEMO;
+    color: #0E4C73;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+
+
+/* pagina contacto */
+#contacto {
+    position: absolute;
+    align-items: center;
+    top: 0%;
+    width: 100%;
+    height: 80%;
+}
+.fondo-contacto {
+    z-index: 4;
+    background-image: url(../img/jose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#contacto-grilla {
+    display: grid;
+}
+
+/* .texto-mensaje{
+    text-align: left;
+    margin-left: 700px;
+    color: #0E4C73;
+    font-family: 'Gill Sans';
+    font-weight: bold;
+    font-size: 20px;
+}
+.blankspace {
+    display: block;
+    padding: 5px;
+    width: 45%;
+    border-radius: 5px;
+    border-color: #F2BE5C;
+    border: 0px;
+    margin-left:700px;
+    background-color: #F2BE5C;
+    font-size: 17px;
+    appearance: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.consulta {
+    font-family: Bright DEMO;
+    color: #F2EFE9;
+
+} */
+
+
+
+
+
+/* footer */
+#footer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 300%;
+    width: 100%;
+    height: 30%;
+    background-color: #0E4C73;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contenedor-ubi{
+    display:flex;
+}
+.googlemaps {
+    height:50%;
+}
+.cordoba {
+    color: #F2BE5C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+.creditos {
+    display: block;
+    color: #F2BE5C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    top: 115px;
+    width: 100%;
+    text-align: center;
+}
