@@ -183,6 +183,9 @@ background-repeat: no-repeat;
     color: #F2BE5C;
     transition: color 0.3s ease-in-out;
 }
+#index #footer {
+    top: 300%;
+}
 /* pagina tienda */
 .fondo {
     position: absolute;
@@ -195,6 +198,9 @@ background-repeat: no-repeat;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+#tienda #footer {
+    top: 300%;
+}
 .titulos-paginas {
     font-family: Bright DEMO;
     color: #0E4C73;
@@ -202,7 +208,17 @@ background-repeat: no-repeat;
     text-align: center;
     padding-top: 5%;
 }
-
+.p-beige {
+    background-color:#0E4C73;
+    color: #F2EFE9;
+    font-family: 'Gill Sans';
+    text-align: center;
+}
+.carousel-item {
+    background-size: cover;
+    background-position: 20px;
+    height: 30rem;
+}
 /* pagina contacto */
 #contacto {
     position: absolute;
@@ -219,11 +235,11 @@ background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-#contacto-grilla {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
+/* footer de contacto */
+#contacto #footer {
+    margin-top: 15px;
 }
+/* formulario */
 .a-flex {
     display: flex;
     align-items: center;
@@ -232,22 +248,32 @@ background-repeat: no-repeat;
     font-family: 'Gill Sans';
     font-size: 20px;
     font-weight: bold;
-    
+    margin-left: 185px;
+}
+.icono-apps {
+    margin: 10px;
+    margin-bottom: 25px;
+}
+#contacto-grilla {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 .texto-mensaje{
+    display: flex;
     color: #0E4C73;
     font-family: 'Gill Sans';
     font-weight: bold;
     font-size: 20px;
 }
-
 .blankspace {
-    padding: 5px;
-    width: 45%;
+    display: flex;
+    padding: 50px;
+    width: 70%;
+    height: 80px;
     border-radius: 5px;
     border-color: #F2BE5C;
     border: 0px;
-    margin-left:200px;
+    margin-right: 50px;
     background-color: #F2BE5C;
     font-size: 17px;
     appearance: none;
@@ -256,9 +282,18 @@ background-repeat: no-repeat;
 .consulta {
     font-family: Bright DEMO;
     color: #F2EFE9;
+    margin-left: 200px;
+    text-align: center;
 } 
-
-/* footer */
+.info-horarios {
+    font-family: 'Gill Sans';
+    color: #F2EFE9;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-right: 50px;
+    text-align: center;
+}
+/* footer general */
 #footer {
     display: flex;
     gap: 10px;
@@ -266,7 +301,6 @@ background-repeat: no-repeat;
     position: absolute;
     align-items: center;
     justify-content: center;
-    top: 300%;
     width: 100%;
     height: 30%;
     background-color: #0E4C73;
@@ -298,15 +332,11 @@ background-repeat: no-repeat;
     width: 100%;
     text-align: center;
 }
-.p-beige {
-    background-color:#0E4C73;
-    color: #F2EFE9;
-    font-family: 'Gill Sans';
-    text-align: center;
+/* pagina como comprar */
+#comocomprar #footer {
+    top: 300%;
 }
-
-.carousel-item {
-    background-size: cover;
-    background-position: 20px;
-    height: 30rem;
+/* pagina nosotros */
+#nosotros #footer {
+    top: 300%;
 }
