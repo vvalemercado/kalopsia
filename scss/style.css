@@ -128,7 +128,7 @@
   margin-left: 43%;
 }
 
-.tienda-index .boton1 :hover {
+.tienda-index .boton1:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #F2BE5C;
@@ -184,7 +184,7 @@
   margin-left: 45%;
 }
 
-.nosotros-index .boton2 :hover {
+.nosotros-index .boton2:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #F2BE5C;
