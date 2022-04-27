@@ -1,0 +1,14 @@
+// nav paginas
+.header{
+    position: relative;
+    top: 60px;
+    width: 100%;
+    z-index: 5;
+}
+/* nav index */
+#index .header {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    top: unset;
+}
